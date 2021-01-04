@@ -1,7 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+}
 body{
     font-family: 'Poppins', sans-serif;
-    font-weight:500;
 }
-.highlightText{
+.top-section:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.top-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 65px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 22px;
+}
+h1.welcome {
+    padding-top: 45px;
+    margin-bottom: 8px;
+}
+h5 {
+    margin: 12px 0px 12px 0px;
+}
+p{
+    font-size:13px;
+    text-align: justify;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.orange-highlight{
     color:orange;
+}
+.half-site{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.top-section-photo{
+    width:80%;
+    padding-left: 22%;
+}
+a.link-button {
+    padding: 4px 15px;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+/* Dream area section */
+.dream-area:after{
+    content:'';
+    display: block;
+    clear:both;
+}
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 6%;
+    padding-bottom: 65px;
+}
+.dream-half-site{
+    width:40%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.dream-area-photo{
+    width:80%;
+}
+.mo-custo{
+    padding-left:0;
+    margin-left:0;
+    margin-top: 25px;
+}
+/* Experience Section */
+.experience:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.experience {
+    margin-bottom: 65px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-position: left;
+}
+h2.experiences-title {
+    padding-bottom: 35px;
+    padding-left: 57px;
+}
+.single-experience{
+    box-shadow: 0px 0px 25px 0px grey;
+    padding:2%;
+    height:200px;
+    border-radius: 5px;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice:1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice:1;
+}
+/* footer */
+footer p{
+    text-align: center;
 }
